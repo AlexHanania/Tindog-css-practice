@@ -1,0 +1,189 @@
+body {
+  font-family: Montserrat;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.header-dog {
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+.download-button {
+  margin: 5% 3% 15% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  z-index: 0;
+  right: 30%
+}
+
+.logos2 {
+  display: inline-block;
+  width: 100%;
+  color: #ef8172;
+  font-size: 4rem;
+  text-align: center;
+  padding: 2rem 0 1.5rem 0;
+}
+
+.logos2:hover {
+  color: #ff4c68;
+}
+
+.logos-header {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: Montserrat;
+  font-weight: 900;
+  padding: 0 5%;
+}
+
+.logos-text {
+  color: #8f8f8f;
+  text-align: center;
+  padding: 0 5%;
+}
+
+#features {
+  padding: 7% 15%;
+  background: white;
+  position: relative;
+  z-index: 2;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.dog-testimonial {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3%;
+}
+
+.press-pic {
+  width: 12%;
+  margin: 5px 20px 20px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
+
+.cta-header {
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 380%;
+  padding: 7% 15% 0 15%;
+}
+
+.download-button-footer {
+  margin: 5% 2% 8% 0;
+  font-size: 140%;
+}
+
+#footer {
+  background-color: #fff;
+  padding: 5% 15% 3% 15%;
+  text-align: center;
+  font-size: 110%;
+  color: #8f8f8f;
+}
+
+.footer-icons {
+  color: black;
+  font-size: 140%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+}
+
+.footer-twitter:hover {
+  color: #00acee;
+}
+
+.footer-facebook:hover {
+  color: #3b5998;
+}
+
+.footer-instagram:hover {
+  color: #C13584;
+}
+
+.footer-envelope:hover {
+  color: #f5d365;
+}
